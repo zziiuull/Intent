@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--    <item android:title="implicit_intent">-->
+    <item
+        android:id="@+id/open_activity_mi"
+        android:title="Open activity"
+        app:showAsAction="always"
+    />
+    <item android:title="Implicit activity">
+        <menu>
+            <item
+                android:id="@+id/view_mi"
+                android:title="Open browser"
+            />
+            <item
+                android:id="@+id/call_mi"
+                android:title="Call a number"
+            />
+            <item
+                android:id="@+id/dial_mi"
+                android:title="Open dial"
+                />
+            <item
+                android:id="@+id/pick_mi"
+                android:title="Pick a image"
+                />
+            <item
+                android:id="@+id/chooser_mi"
+                android:title="Choose a viewer"
+                />
+        </menu>
+    </item>
+</menu>
